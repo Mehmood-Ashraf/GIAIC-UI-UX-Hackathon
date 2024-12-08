@@ -14,8 +14,8 @@ import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
-    <div className="max-w-[1920px] bg-[#0D0D0D]">
-      <Navbar />
+    <div className="max-w-[1920px] bg-[#0D0D0D] md:pb-[120px] pb-20">
+      {/* <Navbar /> */}
 
       <HeroSection1 />
 
@@ -36,9 +36,6 @@ export default function Home() {
       <HeroSection10 />
 
       <HeroSection11 />
-
-
-      <Footer />
 
 
     </div>
