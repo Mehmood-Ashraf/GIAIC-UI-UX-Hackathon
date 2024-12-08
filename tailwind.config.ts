@@ -8,9 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        inter: ['Inter', 'sans-serif'],
+        helvetica: ['Helvetica', 'sans-serif'],
+        greatVibes: ['Great Vibes', 'cursive'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary-color)",
       },
     },
   },
