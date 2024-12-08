@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import Card from '../card'
 import card1 from "../../../public/Images/Hero3 card1.png"
 import card2 from "../../../public/Images/Hero3 card2.png"

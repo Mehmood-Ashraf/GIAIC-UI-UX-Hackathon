@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 import footer1 from "../../../public/Images/Mask Group.png";
 import footer2 from "../../../public/Images/Mask Group (1).png";

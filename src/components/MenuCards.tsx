@@ -1,6 +1,5 @@
 import React from 'react'
 import Image, { StaticImageData } from 'next/image'
-import MenuImage1 from "../../public/Images/Hero6Menu1.png"
 
 interface menuCardProps{
     image: StaticImageData;

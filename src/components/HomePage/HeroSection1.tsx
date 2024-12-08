@@ -1,10 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import HeroImage1 from "../../../public/Images/Hero1.png";
-import FBIcon from "../../../public/Icons/fb icon.png";
-import TwitterIcon from "../../../public/Icons/Twitter icon.png";
-import PIcon from "../../../public/Icons/p icon.png";
-import BackGround from "../../../public/Images/unsplash_qom5MPOER-I.png";
+
 
 const HeroSection1 = () => {
   return (
