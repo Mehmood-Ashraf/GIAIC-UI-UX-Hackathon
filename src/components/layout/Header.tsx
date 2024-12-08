@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
-import HeaderImage from "../../../public/Images/HeaderImage.png"
 import Link from 'next/link'
 
 const Header = () => {
