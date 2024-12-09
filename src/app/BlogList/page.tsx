@@ -44,7 +44,7 @@ const page = () => {
   return (
     <div>
       <Header />
-      <div className="max-w-[1320px] mx-auto xl:my-[120px] my-20 flex gap-6">
+      <div className="max-w-[1320px] mx-auto xl:my-[120px] my-20 flex gap-6 px-3">
         {/**Left Side */}
         <div className="flex flex-col gap-[56px] items-center">
           {BlogData.map((elements) => {

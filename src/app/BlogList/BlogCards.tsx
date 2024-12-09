@@ -15,10 +15,10 @@ const BlogCards = (props: CardProps) => {
     const {image, heading, content} = props;
 
   return (
-    <div className="flex flex-col gap-6">
-      <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-6 lg:w-[871px] w-auto">
+      <div className="flex flex-col gap-4 w-full">
         <div>
-          <Image src={image} alt=""></Image>
+          <Image src={image} alt="" className=""></Image>
         </div>
         <div className="flex gap-2 items-center">
           <BsCalendar2DateFill className="text-primary w-6 h-6" />
@@ -44,7 +44,7 @@ const BlogCards = (props: CardProps) => {
 
       <div className="line w-full border border-[#828282]"></div>
 
-      <div className="w-[648px]">
+      <div className="xl:w-[648px]">
         <p className="font-inter text-base font-normal text-[#4F4F4F]">{content}</p>
       </div>
 
