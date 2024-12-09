@@ -14,7 +14,7 @@ const HeroSection2 = () => {
             About us
           </p>
           <p className="text-5xl leading-[56px] font-bold font-helvetica text-primary">
-            Wespan
+            We
             <span className="text-background">
               Create the best foody product
             </span>

@@ -8,7 +8,7 @@ const Header = () => {
     <div className='container mx-auto px-4'>
       <div className='flex flex-col items-center'>
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight text-white font-bold text-center mb-4 sm:mb-6'>
-          Our Menu
+          404 Error
         </h1>
         <div className='text-base sm:text-lg md:text-xl flex items-center text-center justify-center'>
           <Link href="/" className='text-white hover:text-[#FF9F0D] transition-colors duration-300'>
@@ -18,7 +18,7 @@ const Header = () => {
           <RxCaretRight />
           </span>
           <Link href="/menu" className='text-[#FF9F0D]'>
-            Menu
+            404
           </Link>
         </div>
       </div>

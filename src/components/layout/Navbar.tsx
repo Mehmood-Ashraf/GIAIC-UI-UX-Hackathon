@@ -25,13 +25,13 @@ const Navbar = () => {
 
           <div className="links-input flex items-center justify-between px-2 xl:px-0 sm:flex-row flex-col">
             <div className="links flex gap-4 lg:gap-8 font-inter font-normal sm:text-base text-[12px] text-background">
-              <Link href={"/"}>Home</Link>
-              <Link href={"/Menu"}>Menu</Link>
-              <Link href={"/"}>Blog</Link>
-              <Link href={"/"}>Pages</Link>
-              <Link href={"/"}>About</Link>
-              <Link href={"/"}>Shop</Link>
-              <Link href={"/"}>Contact</Link>
+              <Link href={"/"} className="hover:text-primary">Home</Link>
+              <Link href={"/Menu" } className="hover:text-primary">Menu</Link>
+              <Link href={"/BlogList"} className="hover:text-primary">Blog</Link>
+              <Link href={"/"} className="hover:text-primary">Pages</Link>
+              <Link href={"/About"} className="hover:text-primary">About</Link>
+              <Link href={"/OurShop"} className="hover:text-primary">Shop</Link>
+              <Link href={"/"} className="hover:text-primary">Contact</Link>
             </div>
 
             <div className="flex items-center gap-2">
@@ -43,7 +43,9 @@ const Navbar = () => {
                 />
                 <CiSearch className="absolute w-6 h-6 text-background top-[14px] right-7" />
               </div>
+              <Link href={"/SignUp"}>
               <CiSearch className=" w-6 h-6 text-background top-[14px] right-7 flex md:hidden" />
+              </Link>
               <Image
                 src={Handbag}
                 alt="HandBag Icon"
@@ -67,19 +69,21 @@ const Navbar = () => {
         
         <div className="links-input hidden sm:flex items-center justify-between px-2 xl:px-0 ">
           <div className="links flex gap-4 lg:gap-8 font-inter font-normal sm:text-base text-[12px] text-background">
-            <Link href={"/"}>Home</Link>
-            <Link href={"/Menu"}>Menu</Link>
-            <Link href={"/"}>Blog</Link>
-            <Link href={"/"}>Pages</Link>
-            <Link href={"/"}>About</Link>
-            <Link href={"/"}>Shop</Link>
-            <Link href={"/"}>Contact</Link>
+            <Link href={"/"} className="hover:text-primary">Home</Link>
+            <Link href={"/Menu"} className="hover:text-primary">Menu</Link>
+            <Link href={"/BlogList"} className="hover:text-primary">Blog</Link>
+            <Link href={"/"} className="hover:text-primary">Pages</Link>
+            <Link href={"/About"} className="hover:text-primary">About</Link>
+            <Link href={"/OurShop"} className="hover:text-primary">Shop</Link>
+            <Link href={"/"} className="hover:text-primary">Contact</Link>
           </div>
 
         </div>
           <div className="flex items-center gap-2">
             <CiSearch className="w-6 h-6 text-background " />
-            <AiOutlineUser className="w-6 h-6 text-background" />
+            <Link href={"/SignUp"}>
+              <AiOutlineUser className="w-6 h-6 text-background" />
+            </Link>
             <Image src={Handbag} alt="HandBag Icon" className="w-6 h-6"></Image>
           </div>
       </div>

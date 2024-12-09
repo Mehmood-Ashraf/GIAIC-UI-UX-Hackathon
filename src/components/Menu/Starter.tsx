@@ -12,9 +12,9 @@ const Starter = () => {
             <div>
                 <p className='text-[#333333] font-helvetica font-bold text-5xl md:text-left text-center leading-[56px]'>Starter Menu</p>
             </div>
-            <div className='flex gap-[121px]  xl:w-[760px] lg:w-[650px] justify-between'>
+            <div className='flex gap-[121px]  xl:w-[760px] lg:w-[650px] justify-between cursor-pointer'>
                 <div className='flex flex-col gap-2 font-helvetica text-[#333333]'>
-                    <p className='font-bold md:text-2xl text-xl '>Alder Grilled Chinook Salmon</p>
+                    <p className='font-bold md:text-2xl text-xl hover:text-primary '>Alder Grilled Chinook Salmon</p>
                     <p className='text-[#4F4F4F]'>Toasted French bread topped with romano, cheddar</p>
                     <p className='text-[#4F4F4F]'>560 CAL</p>
                 </div>
@@ -23,9 +23,9 @@ const Starter = () => {
                 </div>
             </div>
 
-            <div className='flex gap-[121px] xl:w-[760px] lg:w-[650px] justify-between'>
+            <div className='flex gap-[121px] xl:w-[760px] lg:w-[650px] justify-between cursor-pointer'>
                 <div className='flex flex-col gap-2 font-helvetica text-[#333333]'>
-                    <p className='font-bold md:text-2xl text-xl text-primary'>Berries and creme tart</p>
+                    <p className='font-bold md:text-2xl text-xl hover:text-primary'>Berries and creme tart</p>
                     <p className='text-[#4F4F4F]'>Gorgonzola, ricotta, mozzarella, taleggio</p>
                     <p className='text-[#4F4F4F]'>700 CAL</p>
                 </div>
@@ -34,9 +34,9 @@ const Starter = () => {
                 </div>
             </div>
 
-            <div className='flex gap-[121px] xl:w-[760px] lg:w-[650px] justify-between'>
+            <div className='flex gap-[121px] xl:w-[760px] lg:w-[650px] justify-between cursor-pointer'>
                 <div className='flex flex-col gap-2 font-helvetica text-[#333333]'>
-                    <p className='font-bold md:text-2xl text-xl'>Tormentoso Bush Pizza Pintoage</p>
+                    <p className='font-bold md:text-2xl text-xl hover:text-primary'>Tormentoso Bush Pizza Pintoage</p>
                     <p className='text-[#4F4F4F]'>Ground cumin, avocados, peeled and cubed</p>
                     <p className='text-[#4F4F4F]'>1000 CAL</p>
                 </div>
@@ -45,9 +45,9 @@ const Starter = () => {
                 </div>
             </div>
 
-            <div className='flex gap-[121px] xl:w-[760px] lg:w-[650px] justify-between'>
+            <div className='flex gap-[121px] xl:w-[760px] lg:w-[650px] justify-between cursor-pointer'>
                 <div className='flex flex-col gap-2 font-helvetica text-[#333333]'>
-                    <p className='font-bold md:text-2xl text-xl'>Spicy Vegan Potato Curry</p>
+                    <p className='font-bold md:text-2xl text-xl first-line:hover:text-primary'>Spicy Vegan Potato Curry</p>
                     <p className='text-[#4F4F4F]'>Spreadable cream cheese, crumbled blue cheese</p>
                     <p className='text-[#4F4F4F]'>560 CAL</p>
                 </div>
