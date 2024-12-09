@@ -28,7 +28,7 @@ const Navbar = () => {
               <Link href={"/"} className="hover:text-primary">Home</Link>
               <Link href={"/Menu" } className="hover:text-primary">Menu</Link>
               <Link href={"/BlogList"} className="hover:text-primary">Blog</Link>
-              <Link href={"/"} className="hover:text-primary">Pages</Link>
+              <Link href={"/OurChefs"} className="hover:text-primary">Chefs</Link>
               <Link href={"/About"} className="hover:text-primary">About</Link>
               <Link href={"/OurShop"} className="hover:text-primary">Shop</Link>
               <Link href={"/"} className="hover:text-primary">Contact</Link>

@@ -59,7 +59,7 @@ const Footer = () => {
 
                 <div className="ml-1">
                   <h2 className="text-[16px] text-[#FFFFFF] font-normal">
-                    Opening Houres
+                    Opening Hours
                   </h2>
                   <h3 className="text-[10px] font-normal text-[#FFFFFF]">
                     Mon - Sat(8.00 - 6.00)
@@ -205,11 +205,21 @@ const Footer = () => {
           </span>
 
           <div className="flex justify-center gap-[14px] text-[#4F4F4F]">
-            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded"><FaFacebookF /></div>
-            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded"><FaTwitter /></div>
-            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded"><FaInstagram /></div>
-            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded"><FaYoutube /></div>
-            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded"><FaPinterest /></div>
+            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded">
+              <a href="https://www.facebook.com" target="blank"><FaFacebookF /></a>
+            </div>
+            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded">
+              <a href="https://twitter.com" target="blank"><FaTwitter /></a>
+            </div>
+            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded">
+              <a href="https://www.instagram.com" target="blank"><FaInstagram /></a>
+            </div>
+            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rounded">
+              <a href="https://www.youtube.com" target="blank"><FaYoutube /></a>
+            </div>
+            <div className="bg-white w-[36px] h-[34px] flex justify-center items-center rou nded">
+              <a href="https://www.pinterest.com" target="blank"><FaPinterest /></a>
+            </div>
           </div>
           </div>
          
