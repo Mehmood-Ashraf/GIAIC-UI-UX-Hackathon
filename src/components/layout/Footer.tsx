@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import footer1 from "../../../public/Images/Mask Group.png";
 import footer2 from "../../../public/Images/Mask Group (1).png";
@@ -116,9 +117,7 @@ const Footer = () => {
             </h2>
             <ul className="text-background dark:text-gray-400 font-medium">
               <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  FAQ
-                </a>
+                <Link href={"/FAQ"} className="hover:underline">FAQ</Link>
               </li>
               <li className="mb-4">
                 <a href="#" className="hover:underline">
