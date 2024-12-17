@@ -1,28 +1,35 @@
+'use client';
+
 import React from "react";
 import Image from "next/image";
 import face from "../../../public/Images/Hero8Face.png"
 import Quotes from "../../../public/Images/Quotes.png"
 import Star from "../../../public/Icons/star - Copy.png"
 
+interface color{
+  textColor: string;
+}
 
-const HeroSection8 = () => {
+
+const HeroSection8 = (props:color) => {
+  const {textColor} = props
+
   return (
     <div className="max-w-[1273px] mx-auto mb-20 lg:mb-[120px] px-3 flex flex-col gap-[56px] ">
       <div className="flex flex-col gap-2 mb-[56px] ">
         <p className="font-greatVibes text-[32px] leading-10 text-primary">
           Testimonials
         </p>
-        <p className="font-helvetica font-bold text-5xl leading-[56px] text-background">
+        <p className={`font-helvetica font-bold text-5xl leading-[56px] ${textColor} text-background`}>
           What our client are saying
         </p>
       </div>
-
       <div className="flex relative items-center justify-center">
         <div className="absolute top-[-56px]">
             <Image src={face} alt="" ></Image>
         </div>
 
-        <div className="w-[869px] h-[451px] pt-[100px] bg-background flex flex-col gap-8 justify-center items-center">
+        <div className="w-[869px] h-[451px] pt-[100px] bg-background flex flex-col gap-8 justify-center items-center shadow-2xl">
                 <div className="">
                     <Image src={Quotes} alt=""></Image>
                 </div>

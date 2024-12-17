@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from '@/components/layout/Header'
 import Hero from './Hero'
 
 const page = () => {
@@ -7,7 +7,10 @@ const page = () => {
 
     
     <div>
-        <Header />
+        <Header
+        name={'Our Shop'}
+        linkName={'Shop'}
+        />
         <Hero />
 
     </div>

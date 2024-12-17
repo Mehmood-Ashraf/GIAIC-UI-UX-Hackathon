@@ -47,7 +47,7 @@ const Footer = () => {
             </h2>
             <ul className="text-background font-medium">
               <li className="mb-4">
-                <p className="text-[#FFFFFF] text-[16px] font-normal hover:underline">
+                <p className="text-[#FFFFFF] sm:text-[16px] text-xs font-normal hover:underline">
                   orporate clients and leisure travelers has been relying on
                   Groundlink for dependab safe, and professional chauffeured car
                   service in major cities across World.
@@ -59,7 +59,7 @@ const Footer = () => {
                 </div>
 
                 <div className="ml-1">
-                  <h2 className="text-[16px] text-[#FFFFFF] font-normal">
+                  <h2 className="sm:text-[16px] text-xs text-[#FFFFFF] font-normal">
                     Opening Hours
                   </h2>
                   <h3 className="text-[10px] font-normal text-[#FFFFFF]">
@@ -76,7 +76,7 @@ const Footer = () => {
             <h2 className="md:mb-6 mb-3 text-[24px] font-semibold text-background">
             Useful Links
             </h2>
-            <ul className="text-background font-medium">
+            <ul className="text-background font-medium sm:text-base text-xs">
               <li className="mb-4">
                 <a href="#" className="hover:underline">
                   About
@@ -115,7 +115,7 @@ const Footer = () => {
             <h2 className="md:mb-6 mb-3 text-[24px] font-semibold  text-background">
             Help?
             </h2>
-            <ul className="text-background dark:text-gray-400 font-medium">
+            <ul className="text-background dark:text-gray-400 font-medium sm:text-base text-xs">
               <li className="mb-4">
                 <Link href={"/FAQ"} className="hover:underline">FAQ</Link>
               </li>
@@ -157,10 +157,10 @@ const Footer = () => {
                 <Image src={footer1} alt="Fod" />
 
                 <div className="ml-1">
-                  <h2 className="text-[12px] text-[#FFFFFF] font-normal">
+                  <h2 className="sm:text-[12px] text-[10px] text-[#FFFFFF] font-normal">
                     20 Feb 2022
                   </h2>
-                  <h3 className="text-[14px] font-normal text-[#FFFFFF]">
+                  <h3 className="sm:text-[14px] text-[12px] font-normal text-[#FFFFFF]">
                     Keep Your Business
                   </h3>
                 </div>
@@ -170,10 +170,10 @@ const Footer = () => {
                 <Image src={footer2} alt="Fod" />
 
                 <div className="ml-1">
-                  <h2 className="text-[12px] text-[#FFFFFF] font-normal">
+                  <h2 className="sm:text-[12px] text-[10px] text-[#FFFFFF] font-normal">
                     20 Feb 2022
                   </h2>
-                  <h3 className="text-[14px] font-normal text-[#FFFFFF]">
+                  <h3 className="sm:text-[14px] text-[12px] font-normal text-[#FFFFFF]">
                     Keep Your Business
                   </h3>
                 </div>
@@ -183,10 +183,10 @@ const Footer = () => {
                 <Image src={footer3} alt="Fod" />
 
                 <div className="ml-1">
-                  <h2 className="text-[12px] text-[#FFFFFF] font-normal">
+                  <h2 className="sm:text-[12px] text-[10px] text-[#FFFFFF] font-normal">
                     20 Feb 2022
                   </h2>
-                  <h3 className="text-[14px] font-normal text-[#FFFFFF]">
+                  <h3 className="sm:text-[14px] text-[12px] font-normal text-[#FFFFFF]">
                     Keep Your Business
                   </h3>
                 </div>
@@ -197,7 +197,7 @@ const Footer = () => {
       </div>
         
         <div className="bg-[#4F4F4F] ">
-          <div className="max-w-[1170px] mx-auto px-4 py-6 bg-[#4F4F4F] gap-3 flex flex-col md:flex-row md:items-center md:justify-between">
+          <div className="max-w-[1170px] mx-auto px-4 py-6 bg-[#4F4F4F] gap-3 flex flex-col md:flex-row items-center md:justify-between justify-center" >
           <span className="text-sm text-background sm:text-center">
             © 2023 <a href="https://flowbite.com/">Flowbite™</a>. All Rights
             Reserved.

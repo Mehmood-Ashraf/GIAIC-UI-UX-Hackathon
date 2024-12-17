@@ -49,7 +49,7 @@ const HeroSection7 = () => {
       </div>
 
       <div className="">
-        <button className="border border-primary rounded-[25px] text-background py-[13px] px-[41px]">See More</button>
+        <button className="border border-primary hover:bg-primary rounded-[25px] text-background py-[13px] px-[41px]">See More</button>
       </div>
     </div>
   );

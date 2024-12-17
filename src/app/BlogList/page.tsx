@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+import Header from "@/components/layout/Header";
 import BlogCards from "./BlogCards";
 import Image from "next/image";
 import Image1 from "../../../public/Images/BlogList/BlogCard1.png";
@@ -43,7 +43,10 @@ const BlogData = [
 const page = () => {
   return (
     <div>
-      <Header />
+      <Header
+      name="Blog List"
+      linkName="Blog" />
+      
       <div className="max-w-[1320px] mx-auto xl:my-[120px] my-20 flex gap-6 px-3">
         {/**Left Side */}
         <div className="flex flex-col gap-[56px] items-center">

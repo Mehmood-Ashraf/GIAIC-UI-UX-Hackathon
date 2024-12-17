@@ -10,7 +10,9 @@ import Partners from '@/components/Menu/Partners'
 const page = () => {
   return (
     <div>
-        <Header />
+        <Header
+        name='Our Menu'
+        linkName='Menu' />
         <Starter />
         <MainCourse />
         <HeroSection5 />

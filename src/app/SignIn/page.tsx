@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from './Header'
+import Header from '@/components/layout/Header';
 import Image from 'next/image'
 import { AiOutlineMail } from "react-icons/ai";
 import { RiLockPasswordLine } from "react-icons/ri";
@@ -10,7 +10,10 @@ import AppleImage from "../../../public/Images/Our Chef/Apple.png"
 const page = () => {
   return (
     <div>
-        <Header />
+        <Header
+        name={'Sign In Page'}
+        linkName='Sign In'
+        />
 
         <div className="flex justify-center items-center">
         <div className="xl:my-[120px] my-20 flex flex-col gap-8 shadow justify-center items-center px-8 py-8 w-[424px]">

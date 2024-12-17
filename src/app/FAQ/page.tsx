@@ -1,7 +1,6 @@
 import React from 'react'
-import Header from './Header'
 import FaqCards from './FaqCards'
-
+import Header from '@/components/layout/Header'
 
 const data = [
   {
@@ -34,7 +33,10 @@ const data = [
 const page = () => {
   return (
     <div>
-      <Header />
+      <Header 
+      name={"FAQ Page"}
+      linkName={"faq"}
+      />
 
       <div className='max-w-[1320px] mx-auto xl:my-[120px] my-20 flex flex-col gap-[56px] px-3'>
           <div className='flex flex-col gap-2 text-center'>

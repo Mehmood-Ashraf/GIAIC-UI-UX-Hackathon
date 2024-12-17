@@ -1,8 +1,14 @@
+'use client'
+
 import React from 'react'
 import Link from 'next/link'
 import { RxCaretRight } from "react-icons/rx";
+import { usePathname } from 'next/navigation';
 
 const Header = () => {
+  const pathName = usePathname()
+
+    if (pathName === '/') return ""
   return (
     <section className='w-full bg-[url("/Images/HeaderImage.png")] bg-cover bg-no-repeat bg-center py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28'>
     <div className='container mx-auto px-4'>

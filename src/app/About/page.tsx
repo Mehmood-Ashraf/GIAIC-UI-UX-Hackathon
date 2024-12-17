@@ -1,11 +1,14 @@
 import React from 'react'
-import Header from './Header'
+import Header from '@/components/layout/Header'
 import Hero from './Hero'
 
 const page = () => {
   return (
     <div>
-        <Header />
+        <Header 
+        name='About Us'
+        linkName='About'/>
+        
         <Hero />
     </div>
   )

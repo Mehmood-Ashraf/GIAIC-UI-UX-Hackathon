@@ -31,7 +31,9 @@ export default function Home() {
 
       <HeroSection7 />
 
-      <HeroSection8/>
+      <HeroSection8 
+      textColor = "text-background"
+      />
 
       <HeroSection10 />
 

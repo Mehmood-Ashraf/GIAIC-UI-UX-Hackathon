@@ -223,7 +223,9 @@ const Hero = () => {
       </div>
 
       <div className="max-w-[1320px] mx-auto">
-        <HeroSection8 />
+        <HeroSection8 
+        textColor= "text-headingColor"
+        />
 
         <div className="flex flex-col md:gap-[56px] gap-9 justify-center items-center mb-[120px] xl:px-0 px-3 max-w-[1320px]">
           <div className="font-helvetica flex flex-col gap-2 text-center max-w-[569px]">
