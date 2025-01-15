@@ -59,11 +59,13 @@ const Navbar = () => {
               <Link href={"/SignUp"}>
               <CiSearch className=" w-6 h-6 text-background top-[14px] right-7 flex md:hidden" />
               </Link>
-              <Image
+             <Link href={"/Cart"}>
+             <Image
                 src={Handbag}
                 alt="HandBag Icon"
                 className="w-6 h-6 cursor-pointer"
               ></Image>
+              </Link>
             </div>
           </div>
         </div>
@@ -73,7 +75,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#0D0D0D]">
-      <div className="max-w-[1320px] mx-auto flex justify-between lg:pt-[45px] px-3 pt-5 bg-[#0D0D0D]">
+      <div className="max-w-[1320px] mx-auto flex justify-between lg:py-[22px] px-3 py-5 bg-[#0D0D0D]">
         <div className="text-center ">
           <p className="text-2xl font-bold text-primary font-helvetica">
             Food<span className="text-white">tuck</span>
